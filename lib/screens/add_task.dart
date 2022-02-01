@@ -180,8 +180,9 @@ class _AddTaskState extends State<AddTask> {
                                       : () {
                                           Navigator.pop(
                                               context,
-                                              Todo(myController.text, false,
-                                                  _dropdownValue)); // Close the add todo screen
+                                              Todo.creation(myController.text,
+                                                  _dropdownValue)); // Cl
+                                          // Close the add todo screen
                                         },
                                   icon: const Icon(Icons.check),
                                   color: Colors.white,

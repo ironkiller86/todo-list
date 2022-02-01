@@ -35,7 +35,9 @@ class TaskRow extends StatelessWidget {
                 borderRadius: const BorderRadius.horizontal(
                     left: Radius.circular(10), right: Radius.circular(10)),
                 border: Border.all(
-                    width: 1.0, color: Utility.labelMap[todo.label] as Color)),
+                    width: 1.0,
+                    color:
+                        Utility.labelMap[/* todo.label */ 'Hobby'] as Color)),
             margin: const EdgeInsets.only(left: 8, bottom: 5),
             child: Center(
               child: Text(

@@ -18,4 +18,5 @@ class Utility {
     labelTodo[4]: Colors.brown.shade400,
     labelTodo[5]: Colors.orange.shade400,
   };
+  static const url = 'https://jsonplaceholder.typicode.com';
 }
